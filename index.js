@@ -14,4 +14,13 @@ let multiplesOfFourOrSeven = () => {
     }
 }
 
-multiplesOfFourOrSeven()
+//multiplesOfFourOrSeven()
+
+let square = (x) => {
+    if(Math.sqrt(x) % 1 == 0){
+        return Math.sqrt(x);
+    } else return Math.pow(x, 2)
+    }
+    console.log(square(36))
+    
+       
